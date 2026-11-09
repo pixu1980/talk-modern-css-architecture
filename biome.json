@@ -1,6 +1,17 @@
 {
-	"files": {
-		"includes": ["src/**", "README.md", "package.json", ".github/**"],
-		"maxSize": 1048576
-	}
+  "$schema": "https://biomejs.dev/schemas/2.6.6/schema.json",
+  "files": {
+    "includes": [
+      "src/**",
+      "README.md",
+      "package.json",
+      ".github/**"
+    ],
+    "maxSize": 1048576
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  }
 }
